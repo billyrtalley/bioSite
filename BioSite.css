@@ -1,0 +1,227 @@
+body {
+    background-color: #F5F5F5;
+    color: #020A29;
+    width: 100vw;
+    height: 100vh; 
+  }
+  
+  h1 {
+    font-family: 'Merriweather', serif; 
+    font-size: 64px; 
+    text-align: center; 
+    margin-bottom: 0px;
+  }
+  
+  h2 {
+    font-family: 'Merriweather', serif; 
+  }
+  
+  p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px; 
+  }
+  
+  .header-p {
+    margin-bottom: 10px; 
+  }
+  
+  ul {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    list-style-type: disc;
+    padding: 0;
+    margin: 15px;
+    
+  }
+  
+  .top-nav {
+    background-color: #4C9DA8;
+    border-bottom-style: solid;
+    border-bottom-width: 3px; 
+    border-bottom-color: #A8342B;
+    width: 100%;
+    height: 190px; 
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header-p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500px; 
+    margin-top: 15px;   
+  }
+  
+  .letter-mark {
+    font-family: 'Merriweather', serif; 
+    font-size: 72px; 
+    margin-left: 10px; 
+    margin-top: 55px;
+  }
+  
+  .head-nav {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px; 
+    text-decoration: none;
+    color: #020A29; 
+    display: inline;
+    list-style-type: none;
+    margin-right: 25px;
+    height: 40px;
+    text-align: bottom;
+  }
+  
+  .header-links {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px; 
+    text-decoration: none;
+    display: flex; 
+    list-style-type: none;
+    width: 200px;
+    margin-right: 25px; 
+    justify-content: space-between; 
+    margin-top: 140px; 
+  }
+  
+  .top-links {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px; 
+    text-decoration: none;
+    display: inline;
+    color: #020A29; 
+  }
+  
+  .main-landing {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 45px; 
+    
+  }
+  
+  .landing-left-col {
+    width: 25%;
+    margin-left: 15px; 
+  }
+  
+  .land-mid-column {
+    width: 50%;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+  }
+  
+  .land-right {
+    width: 25%;
+    margin-left: 25px; 
+  }
+  
+  .about-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .about-pic {
+    border-style: solid;
+    border-bottom-width: 1px;
+    height: 450px;
+    width: 730px; 
+    padding-bottom: 20px;
+    margin-top: 20px; 
+  }
+  
+  .about-text {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px; 
+    height: 350px; 
+  }
+  
+  .about-p {
+    width: 40%;
+    margin-top: 20px;
+  }
+  
+  .hobbies-main {
+    width: 100%; 
+    height: 700px; 
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    
+  }
+  
+  .hobbies-pics {
+    width: 100%;
+    height: 550px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 0px;
+    margin-top: 20px; 
+  }
+  
+  .hobbies-pic-1, .hobbies-pic-2, .hobbies-pic-3 {
+    width: 375px;
+    height: 425px;
+    border-style: solid;
+    border-width: 1px;
+    
+  }
+  
+  .hobbies-text {
+    width: 90%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row; 
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 0px;
+    padding-bottom: 25px;
+    padding-top: 0px; 
+  }
+  
+  .hobbies-p {
+    width: 30%;
+    margin-left: 50px; 
+    
+  }
+  
+  footer {
+    width: 100%;
+    height: 90px;
+    background-color: #4C9DA8;
+    padding-bottom: 30px;
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-top-color: #A8342B; 
+     
+  }
+  
+  .foot-div {
+    display: flex;
+    flex-direction: row; 
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  
+  .foot-title {
+    font-family:  'Merriweather', serif; 
+    font-size: 36px; 
+    align-self: center; 
+    margin-left: 660px;
+  }
+  
+  .foot-p {
+    text-align: right; 
+    margin-right: 40px;
+    margin-top: 85px;
+    padding-bottom: 0px; 
+  }
