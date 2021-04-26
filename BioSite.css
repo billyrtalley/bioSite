@@ -71,6 +71,11 @@ body {
     text-align: bottom;
     cursor: pointer;
   }
+
+  .header-links:hover {
+      color:#A8342B;
+  }
+  
   
   .header-links {
     font-family: 'Poppins', sans-serif;
@@ -84,9 +89,7 @@ body {
     margin-top: 140px; 
   }
 
-  .header-links:hover {
-    color: #76A8A5;
-  }
+  
   
   .top-links {
     font-family: 'Poppins', sans-serif;
