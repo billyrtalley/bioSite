@@ -69,6 +69,7 @@ body {
     margin-right: 25px;
     height: 40px;
     text-align: bottom;
+    cursor: pointer;
   }
   
   .header-links {
@@ -81,6 +82,10 @@ body {
     margin-right: 25px; 
     justify-content: space-between; 
     margin-top: 140px; 
+  }
+
+  .header-links:hover {
+    color: #76A8A5;
   }
   
   .top-links {
@@ -102,13 +107,13 @@ body {
   
   .landing-left-col {
     width: 25%;
-    margin-left: 15px; 
+    margin-left: 15px;
+    margin-right: 10px; 
   }
+
   
   .land-mid-column {
     width: 50%;
-    border-style: solid;
-    border-width: 1px;
     padding: 10px;
   }
   
@@ -125,10 +130,8 @@ body {
   }
   
   .about-pic {
-    border-style: solid;
-    border-bottom-width: 1px;
     height: 450px;
-    width: 730px; 
+    width: 830px; 
     padding-bottom: 20px;
     margin-top: 20px; 
   }
@@ -170,8 +173,7 @@ body {
   .hobbies-pic-1, .hobbies-pic-2, .hobbies-pic-3 {
     width: 375px;
     height: 425px;
-    border-style: solid;
-    border-width: 1px;
+    
     
   }
   
@@ -181,8 +183,6 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: row; 
-    border-style: solid;
-    border-width: 1px;
     margin-top: 0px;
     padding-bottom: 25px;
     padding-top: 0px; 
@@ -216,7 +216,7 @@ body {
     font-family:  'Merriweather', serif; 
     font-size: 36px; 
     align-self: center; 
-    margin-left: 660px;
+    margin-left: 720px;
   }
   
   .foot-p {
