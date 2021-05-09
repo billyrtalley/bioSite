@@ -72,7 +72,7 @@ body {
     cursor: pointer;
   }
 
-  .header-links:hover {
+  .header-links a:hover {
       color:#A8342B;
   }
   
@@ -124,6 +124,9 @@ body {
   .land-mid-column {
     width: 50%;
     padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
   }
   
   .land-right {
@@ -143,7 +146,7 @@ body {
     width: 830px; 
     padding-bottom: 20px;
     margin-top: 20px; 
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
   }
@@ -181,16 +184,15 @@ body {
     align-items: center;
     padding-bottom: 0px;
     margin-top: 20px; 
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
+    
   }
   
   .hobbies-pic-1, .hobbies-pic-2, .hobbies-pic-3 {
     width: 375px;
     height: 425px;
-    
-    
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
   }
   
   .hobbies-text {
