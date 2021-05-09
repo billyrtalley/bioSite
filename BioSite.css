@@ -137,7 +137,7 @@ body {
   .about-main {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     
   }
@@ -146,7 +146,7 @@ body {
     height: 450px;
     width: 830px; 
     padding-bottom: 20px;
-    margin-top: 20px; 
+    margin-top: 50px; 
    
   }
   
@@ -159,7 +159,7 @@ body {
   
   .about-p {
     width: 40%;
-    margin-top: 20px;
+    margin-top: 50px;
     border-radius: 10px;
     height: 200px; 
   }
