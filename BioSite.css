@@ -178,7 +178,7 @@ body {
   
   .hobbies-pics {
     width: 100%;
-    height: 550px; 
+    height: 450px; 
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
